@@ -47,6 +47,10 @@ group :test do
   gem "rspec"
   gem "rack-test", "~> 1.1"
   gem "rspec-json_expectations", "~> 2.2"
+  gem "puma"
+  gem "thin"
+  gem "falcon"
+  gem "webrick"
 end
 
 
